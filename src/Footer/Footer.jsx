@@ -1,10 +1,11 @@
+import styles from './Footer.module.css'
 
 function Footer() {
 
     return(
         <>
             <footer>
-                <p>My portfolio website</p>
+                <p>My website</p>
             </footer>
         </>
     )

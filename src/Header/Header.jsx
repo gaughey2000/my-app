@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 function Header() {
 
     return(
-        <header>
+        <header className={styles.header}>
             <h2>Connor McGaughey</h2>
             <ul className={styles.navbar}>
                 <li className={styles.navbutton}><a href="#">Home</a></li>
